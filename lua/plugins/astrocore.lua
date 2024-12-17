@@ -69,6 +69,9 @@ return {
           desc = "Close buffer",
         },
 
+        -- select all text
+        ["<C-a>"] = { "ggVG", desc = "select all text in the buffer" },
+
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
