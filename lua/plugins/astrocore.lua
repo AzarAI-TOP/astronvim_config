@@ -1,9 +1,5 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
--- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
---       as this provides autocomplete and documentation while editing
 
 ---@type LazySpec
 return {
@@ -43,8 +39,11 @@ return {
     -- NOTE: keycodes follow the casing in the vimdocs. For example, `<Leader>` must be capitalized
     mappings = {
       -- first key is the mode
+      -- second key is the lefthand side of the map
       n = {
-        -- second key is the lefthand side of the map
+        -- editor behavior
+        ["H"] = { "^i", desc = "Edit from the start of the line" },
+        ["L"] = { "$a", desc = "Edit from the end of the line" },
 
         -- navigate buffer tabs
         ["]b"] = { function() require("astrocore.buffer").nav(vim.v.count1) end, desc = "Next buffer" },
@@ -58,6 +57,16 @@ return {
             )
           end,
           desc = "Close buffer from tabline",
+        },
+
+        -- open alpha automatically when no more buffers
+        ["<Leader>c"] = {
+          function()
+            local bufs = vim.fn.getbufinfo { buflisted = 1 }
+            require("astrocore.buffer").close(0)
+            if require("astrocore").is_available "alpha-nvim" and not bufs[2] then require("alpha").start() end
+          end,
+          desc = "Close buffer",
         },
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
