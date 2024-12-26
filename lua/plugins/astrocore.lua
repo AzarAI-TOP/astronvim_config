@@ -36,11 +36,13 @@ return {
       },
     },
     -- Mappings can be configured through AstroCore as well.
-    -- NOTE: keycodes follow the casing in the vimdocs. For example, `<Leader>` must be capitalized
     mappings = {
       -- first key is the mode
       -- second key is the lefthand side of the map
       n = {
+        -- sudo write
+        ["<Leader>W"] = { "<cmd>w !sudo tee % > /dev/null<CR>", desc = "Force write" },
+
         -- editor behavior
         ["H"] = { "^i", desc = "Edit from the start of the line" },
         ["L"] = { "$a", desc = "Edit from the end of the line" },
@@ -71,6 +73,16 @@ return {
 
         -- select all text
         ["<C-a>"] = { "ggVG", desc = "select all text in the buffer" },
+
+        -- hop keybindings
+        ["f"] = {
+          function() require("hop").hint_char1 { current_line_only = true } end,
+          desc = "Hop motion",
+        },
+        ["F"] = {
+          function() require("hop").hint_char1() end,
+          desc = "Hop motion",
+        },
 
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
