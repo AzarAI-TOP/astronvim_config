@@ -43,6 +43,9 @@ return {
         -- sudo write
         ["<Leader>W"] = { "<cmd>w !sudo tee % > /dev/null<CR>", desc = "Force write" },
 
+        -- toggle wrap
+        ["<F1>"] = { function() require("astrocore.toggles").wrap() end, desc = "Toggle wrap" },
+
         -- editor behavior
         ["H"] = { "^i", desc = "Edit from the start of the line" },
         ["L"] = { "$a", desc = "Edit from the end of the line" },
