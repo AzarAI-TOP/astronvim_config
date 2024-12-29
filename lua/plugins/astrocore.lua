@@ -46,6 +46,12 @@ return {
         -- toggle wrap
         ["<F1>"] = { function() require("astrocore.toggles").wrap() end, desc = "Toggle wrap" },
 
+        -- toggle configuration editing
+        ["<F2>"] = {
+          function() require("user.toggle2config").Toggle_Config() end,
+          desc = "Toggle configuration editing",
+        },
+
         -- editor behavior
         ["H"] = { "^i", desc = "Edit from the start of the line" },
         ["L"] = { "$a", desc = "Edit from the end of the line" },
