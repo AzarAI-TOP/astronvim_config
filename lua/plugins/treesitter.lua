@@ -10,6 +10,8 @@ return {
       "json",
       "python",
       "cpp",
+      "typescript",
+      "cmake",
     },
   },
 }
