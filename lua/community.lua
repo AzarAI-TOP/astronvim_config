@@ -13,6 +13,9 @@ return {
   { import = "astrocommunity.pack.cpp" },
   { import = "astrocommunity.pack.verilog" },
 
+  -- Code runner
+  {import =  "astrocommunity.code-runner.compiler-nvim"},
+
   -- Useful Plugins
   { import = "astrocommunity.motion.mini-move" },
 }

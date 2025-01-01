@@ -93,6 +93,10 @@ return {
           desc = "Hop motion",
         },
 
+        -- compiler-nvim keybindings
+        ["<F9>"] = { "<cmd>CompilerOpen<CR>", desc = "Open Compiler",
+        },
+
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
         -- ["<Leader>b"] = { desc = "Buffers" },
