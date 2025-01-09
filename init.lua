@@ -15,5 +15,10 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
+-- Load Lazy
 require "lazy_setup"
+-- Load Keymaps
+local mappings = require "keymaps"
+require("astrocore").set_mappings(mappings)
+-- Load Polish
 require "polish"
