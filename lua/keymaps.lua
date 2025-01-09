@@ -1,3 +1,4 @@
+---@type AstroCoreMappings
 local maps = require("astrocore").empty_map_table()
 
 -- Leader
@@ -20,8 +21,8 @@ maps.n["<Leader>w"] = { "<Cmd>confirm w<CR>", desc = "Write" }
 maps.n["<Leader>W"] = { "<Cmd>w !sudo tee % > /dev/null<CR>", desc = "Force Write" }
 
 -- Caret Management
-maps.n["H"] = { "^",  desc = "Move caret to the beginning of line" }
-maps.n["L"] = { "$",  desc = "Move caret to the ends of line" }
+maps.n["H"] = { "^", desc = "Move caret to the beginning of line" }
+maps.n["L"] = { "$", desc = "Move caret to the ends of line" }
 
 -- Plugin Management
 maps.n["<Leader>pl"] = { "<Cmd>Lazy<CR>", desc = "Lazy" }
@@ -34,6 +35,9 @@ maps.n["<M-Right>"] = { function() require("astrocore.buffer").nav(vim.v.count1)
 -- Hop
 maps.n["F"] = { function() require("hop").hint_char1() end, desc = "Hop move in this screen" }
 maps.n["f"] = { function() require("hop").hint_char1 { current_line_only = true } end, desc = "Hop move in this line" }
+
+-- LSP
+-- ...
 
 -- Custom
 maps.n["<F12>"] = { function() require("utils").toggle_config() end, desc = "Neovim configuration" }
