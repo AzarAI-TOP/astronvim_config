@@ -18,7 +18,7 @@ return {
       return opts
     end,
   },
-
+  -- Heirline
   {
     "rebelot/heirline.nvim",
     opts = function(_, opts)
@@ -78,6 +78,11 @@ return {
         },
       }
     end,
+  },
+
+  -- Onedark
+  {
+    "navarasu/onedark.nvim",
   },
 
   -- Better-Escape
@@ -144,7 +149,6 @@ return {
     },
   },
 
-  
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
   -- {
   --   "L3MON4D3/LuaSnip",
