@@ -60,6 +60,11 @@ return {
   -- Markview
   {
     "OXY2DEV/markview.nvim",
+    opts = {
+      preview = {
+        icon_provider = "devincons",
+      },
+    },
   },
 
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
