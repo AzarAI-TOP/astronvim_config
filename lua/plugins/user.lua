@@ -5,12 +5,12 @@ return {
   -- Alpha
   {
     "goolord/alpha-nvim",
-    opts = require("./config/alpha.lua")
+    opts = require "config/alpha",
   },
   -- Heirline
   {
     "rebelot/heirline.nvim",
-    opts = require("./config/heirline.lua")
+    opts = require "config/heirline",
   },
 
   -- Onedark
@@ -41,7 +41,7 @@ return {
   -- Nvim-Autopairs
   {
     "windwp/nvim-autopairs",
-    opts = require("./config/nvim-autopairs.lua")
+    opts = require "config/nvim-autopairs",
   },
 
   -- LSP_Signature
@@ -55,6 +55,11 @@ return {
         border = "rounded",
       },
     },
+  },
+
+  -- Markview
+  {
+    "OXY2DEV/markview.nvim",
   },
 
   -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
