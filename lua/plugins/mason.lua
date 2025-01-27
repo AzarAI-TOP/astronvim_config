@@ -10,6 +10,7 @@ return {
       ensure_installed = {
         "lua_ls",
         "clangd",
+        "gopls",
       },
     },
   },
@@ -21,6 +22,7 @@ return {
       ensure_installed = {
         "stylua",
         "clang-format",
+        "gospel",
       },
     },
   },
