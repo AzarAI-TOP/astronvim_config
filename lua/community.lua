@@ -6,9 +6,6 @@
 return {
   "AstroNvim/astrocommunity",
 
-  -- Colorscheme
-  { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
-
   -- Movetion
   { import = "astrocommunity.motion.mini-move" },
 }
