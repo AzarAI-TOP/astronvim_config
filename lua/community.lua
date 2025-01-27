@@ -5,6 +5,10 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
-  -- Import/override with your plugins folder
+
+  -- Colorscheme
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
+
+  -- Movetion
+  { import = "astrocommunity.motion.mini-move" },
 }
