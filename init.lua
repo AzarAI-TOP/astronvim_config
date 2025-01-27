@@ -22,3 +22,4 @@ local mappings = require "keymaps"
 require("astrocore").set_mappings(mappings)
 -- Load Polish
 require "polish"
+
