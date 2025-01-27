@@ -12,6 +12,7 @@ return {
       "python",
       "markdown",
       "markdown_inline",
+      "latex",
     },
   },
 }
