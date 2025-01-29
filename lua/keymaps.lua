@@ -20,9 +20,11 @@ maps.n["<Leader>Q"] = { "<Cmd>confirm qall<CR>", desc = "Quit Neovim" }
 maps.n["<Leader>w"] = { "<Cmd>confirm w<CR>", desc = "Write" }
 maps.n["<Leader>W"] = { "<Cmd>w !sudo tee % > /dev/null<CR>", desc = "Force Write" }
 
--- Caret Management
+-- Motions
 maps.n["H"] = { "^", desc = "Move caret to the beginning of line" }
 maps.n["L"] = { "$", desc = "Move caret to the ends of line" }
+maps.n["[r"] = { function() require("illuminate").goto_prev_reference() end, desc = "Move to last reference" }
+maps.n["]r"] = { function() require("illuminate").goto_next_reference() end, desc = "Move to next reference" }
 
 -- Plugin Management
 maps.n["<Leader>pl"] = { "<Cmd>Lazy<CR>", desc = "Lazy" }
