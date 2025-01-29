@@ -34,7 +34,6 @@ return {
   -- Hop
   {
     "phaazon/hop.nvim",
-    lazy = true,
     opts = function(_, opts) opts.keys = "etovxqpdygfblzhckisuran" end,
   },
 
@@ -67,14 +66,26 @@ return {
     },
   },
 
-  -- You can also easily customize additional setup of plugins that is outside of the plugin's setup call
+  -- LuaSnip
+  {
+    "L3MON4D3/LuaSnip",
+    version = "v2.*",
+    build = "make install_jsregexp",
+    config = function(plugin, opts)
+      -- Including Astronvim defualt configurations
+      require "astronvim.plugins.configs.luasnip"(plugin, opts)
+      -- Add custom ones from snippets folder
+      require("luasnip.loaders.from_vscode").lazy_load { paths = "~/.config/nvim/snippets" }
+    end,
+  },
+
+  -- Vimtex
   -- {
-  --   "L3MON4D3/LuaSnip",
-  --   Config = function(plugin, opts)
-  --     Require "astronvim.plugins.configs.luasnip"(plugin, opts) -- Include the default astronvim config that calls the setup call
-  --     -- add more custom luasnip configuration such as filetype extend or custom snippets
-  --     Local luasnip = require "luasnip"
-  --     Luasnip.filetype_extend("javascript", { "javascriptreact" })
-  --   End,
+  --   "lervag/vimtex",
+  --   -- tag = "v2.15", -- uncomment to pin to a specific release
+  --   init = function()
+  --     -- VimTeX configuration goes here, e.g.
+  --     vim.g.vimtex_view_method = "zathura"
+  --   end,
   -- },
 }

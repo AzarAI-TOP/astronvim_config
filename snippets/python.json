@@ -1,0 +1,9 @@
+{
+  "main_function": {
+    "prefix": "main",
+    "body": [
+      "if __name__ == '__main__':",
+      "    ..."
+    ]
+  }
+}

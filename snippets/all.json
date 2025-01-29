@@ -1,0 +1,18 @@
+{
+  "author_name": {
+    "prefix": "az",
+    "body": "AzarAI"
+  },
+  "mail_ustc": {
+    "prefix": "mailu",
+    "body": "azarai@mail.ustc.edu.cn"
+  },
+  "mail_qq": {
+    "prefix": "mailq",
+    "body": "azarai@qq.com"
+  },
+  "mail_google": {
+    "prefix": "mailg",
+    "body": "azaraitop@gmail.com"
+  }
+}
