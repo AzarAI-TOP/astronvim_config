@@ -31,6 +31,11 @@ return {
     },
   },
 
+  -- Neoscroll
+  {
+    "karb94/neoscroll.nvim",
+  },
+
   -- Hop
   {
     "phaazon/hop.nvim",
@@ -77,6 +82,12 @@ return {
       -- Add custom ones from snippets folder
       require("luasnip.loaders.from_vscode").lazy_load { paths = "~/.config/nvim/snippets" }
     end,
+  },
+
+  -- Friendly-snippets
+  {
+    "rafamadriz/friendly-snippets",
+    enabled = false,
   },
 
   -- Vimtex
