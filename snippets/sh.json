@@ -1,0 +1,12 @@
+{
+  "function_oneline": {
+    "prefix": "func",
+    "body": ["function ${1:func_name}() { $0 }"],
+    "description": "Function"
+  },
+  "function": {
+    "prefix": "function",
+    "body": ["function ${1:func_name}() {", "\t$0", "}"],
+    "description": "Function"
+  }
+}

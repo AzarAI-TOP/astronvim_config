@@ -35,6 +35,13 @@
       },
       {
         "language": [
+          "bash",
+          "zsh"
+        ],
+        "path": "./sh.json"
+      },
+      {
+        "language": [
           "json",
           "jsonc"
         ],
