@@ -36,7 +36,8 @@
       {
         "language": [
           "bash",
-          "zsh"
+          "zsh",
+          "sh"
         ],
         "path": "./sh.json"
       },
