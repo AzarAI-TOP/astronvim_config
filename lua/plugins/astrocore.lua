@@ -30,6 +30,7 @@ return {
         spell = false, -- Sets vim.opt.spell
         signcolumn = "yes", -- Sets vim.opt.signcolumn to yes
         wrap = false, -- Sets vim.opt.wrap
+        smartcase = true -- Sets vim.opt.smartcase
       },
       g = { -- Vim.g.<key>
         -- Configure global vim variables (vim.g)
