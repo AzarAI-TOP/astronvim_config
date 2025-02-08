@@ -23,6 +23,10 @@ maps.n["<Leader>W"] = { "<Cmd>w !sudo tee % > /dev/null<CR>", desc = "Force Writ
 -- Motions
 maps.n["H"] = { "^", desc = "Move caret to the beginning of line" }
 maps.n["L"] = { "$", desc = "Move caret to the ends of line" }
+maps.v["H"] = maps.n["H"]
+maps.v["L"] = maps.n["L"]
+maps.o["H"] = maps.n["H"]
+maps.o["L"] = maps.n["L"]
 maps.n["<C-j>"] =
   { function() require("neoscroll").scroll(0.3, { duration = 100 }) end, desc = "Scroll down a third screen" }
 maps.n["<C-k>"] =
