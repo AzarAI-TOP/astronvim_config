@@ -8,4 +8,7 @@ return {
 
   -- Movetion
   { import = "astrocommunity.motion.mini-move" },
+
+  -- Programming language support
+  { import = "astrocommunity.pack.bash" },
 }
