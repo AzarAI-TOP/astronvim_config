@@ -14,6 +14,8 @@ return {
       "markdown_inline",
       "latex",
       "json",
+      "jsonc",
+      "bash",
     },
   },
 }
