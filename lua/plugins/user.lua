@@ -64,11 +64,16 @@ return {
   -- Markview
   {
     "OXY2DEV/markview.nvim",
-    opts = {
-      preview = {
+    opts = function(_, opts)
+      opts.preview = {
         icon_provider = "devincons",
-      },
-    },
+      }
+
+      local presets = require "markview.presets"
+      opts.markdown = {
+        headings = presets.headings.slanted,
+      }
+    end,
   },
 
   -- LuaSnip
@@ -81,6 +86,23 @@ return {
       require "astronvim.plugins.configs.luasnip"(plugin, opts)
       -- Add custom ones from snippets folder
       require("luasnip.loaders.from_vscode").lazy_load { paths = "~/.config/nvim/snippets" }
+    end,
+  },
+
+  -- Nvim-Cmp
+  {
+    "hrsh7th/nvim-cmp",
+    opts = function(_, opts)
+      -- opts parameter is the default options table
+      -- the function is lazy loaded so cmp is able to be required
+      local cmp = require "cmp"
+      -- modify the sources part of the options table
+      opts.sources = cmp.config.sources {
+        { name = "luasnip", priority = 1000 },
+        { name = "nvim_lsp", priority = 750 },
+        { name = "buffer", priority = 500 },
+        { name = "path", priority = 250 },
+      }
     end,
   },
 
