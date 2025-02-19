@@ -76,19 +76,6 @@ return {
     end,
   },
 
-  -- LuaSnip
-  {
-    "L3MON4D3/LuaSnip",
-    version = "v2.*",
-    build = "make install_jsregexp",
-    config = function(plugin, opts)
-      -- Including Astronvim defualt configurations
-      require "astronvim.plugins.configs.luasnip"(plugin, opts)
-      -- Add custom ones from snippets folder
-      require("luasnip.loaders.from_vscode").lazy_load { paths = "~/.config/nvim/snippets" }
-    end,
-  },
-
   -- Nvim-Cmp
   {
     "hrsh7th/nvim-cmp",
@@ -104,12 +91,6 @@ return {
         { name = "path", priority = 250 },
       }
     end,
-  },
-
-  -- Friendly-snippets
-  {
-    "rafamadriz/friendly-snippets",
-    enabled = false,
   },
 
   -- Vimtex
