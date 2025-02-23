@@ -38,7 +38,7 @@ cargo install bottom
 #### Clone the repository
 
 ```shell
-git clone ~git@github.com:AzarAI-TOP/astronvim_config.git /.config/nvim
+git clone git@github.com:AzarAI-TOP/astronvim_config.git ~/.config/nvim
 ```
 
 #### Start Neovim
