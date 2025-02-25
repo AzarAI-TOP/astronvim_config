@@ -18,21 +18,26 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 rm ~/.config/nvim ~/.local/{share, state}/nvim ~/.cache/nvim
 ```
 
-#### Install the dependencies
+#### Install the dependencies (only for Debians....)
 
 ```shell
 # ripgrep
 apt install ripgrep
 
 # lazygit
-LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | \grep -Po '"tag_name": *"v\K[^"]*')
-curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
-tar xf lazygit.tar.gz lazygit
-sudo install lazygit -D -t /usr/local/bin/
+conda install -c conda-forge lazygit
 
 # bottom
-rustup update stable
-cargo install bottom
+apt install btm
+
+# node
+apt install nodejs npm
+
+# gdu
+apt install gdu
+
+# luarocks
+apt install luarocks
 ```
 
 #### Clone the repository
