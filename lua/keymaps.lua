@@ -27,10 +27,10 @@ maps.v["H"] = maps.n["H"]
 maps.v["L"] = maps.n["L"]
 maps.o["H"] = maps.n["H"]
 maps.o["L"] = maps.n["L"]
-maps.n["<C-j>"] =
-  { function() require("neoscroll").scroll(0.3, { duration = 100 }) end, desc = "Scroll down a third screen" }
-maps.n["<C-k>"] =
-  { function() require("neoscroll").scroll(-0.3, { duration = 100 }) end, desc = "Scroll up a third screen" }
+maps.n["<C-d>"] =
+  { function() require("neoscroll").scroll(0.5, { duration = 100 }) end, desc = "Scroll down a third screen" }
+maps.n["<C-u>"] =
+  { function() require("neoscroll").scroll(-0.5, { duration = 100 }) end, desc = "Scroll up a third screen" }
 maps.n["[r"] = { function() require("illuminate").goto_prev_reference() end, desc = "Move to last reference" }
 maps.n["]r"] = { function() require("illuminate").goto_next_reference() end, desc = "Move to next reference" }
 
@@ -44,7 +44,7 @@ maps.n["<M-Right>"] = { function() require("astrocore.buffer").nav(vim.v.count1)
 
 -- Hop
 maps.n["F"] = { function() require("hop").hint_char1() end, desc = "Hop move in this screen" }
-maps.n["f"] = { function() require("hop").hint_char1 { current_line_only = true } end, desc = "Hop move in this line" }
+maps.n["f"] = { function() require("hop").hint_char1({ current_line_only = true }) end, desc = "Hop move in this line" }
 
 -- LSP
 -- ...

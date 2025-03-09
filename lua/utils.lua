@@ -7,7 +7,7 @@ local M = {}
 
 M.dir_mem = {
   last_dir = nil,
-  config_dir = vim.fn.stdpath "config",
+  config_dir = vim.fn.stdpath("config"),
 }
 
 --- Toggle between workspace and configuration directory

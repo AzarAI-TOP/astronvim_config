@@ -1,0 +1,28 @@
+{
+  "func": {
+    "prefix": "func",
+    "body": [
+      "func $1($2) $3 end"
+    ],
+    "description": "function in a line",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Func": {
+    "prefix": "Func",
+    "body": [
+      "func $1($2)",
+      "\t$3",
+      "end"
+    ],
+    "description": "function in a block",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  }
+}

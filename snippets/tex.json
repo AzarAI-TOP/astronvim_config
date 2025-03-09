@@ -1,0 +1,1687 @@
+{
+  "template-notes": {
+    "prefix": "template-notes",
+    "body": [
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Notes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\\documentclass{article}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Used Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\\usepackage{NotesTeXV3}",
+      "\\usepackage{xeCJK}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Fonts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\\setCJKmainfont{Source Han Serif SC}",
+      "\\setCJKsansfont{Source Han Sans HW SC}",
+      "\\setCJKmonofont{Source Han Mono SC}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Cover %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\title{$1}",
+      "\\author{AzarAI}",
+      "\\emailAdd{azarai@mail.ustc.edu.cn}",
+      "\\date{${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DAY}}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Notes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\\begin{document}",
+      "\\maketitle",
+      "",
+      "$2",
+      "",
+      "\\end{document}"
+    ],
+    "description": "Template for latex note-taking for NotesTexV3 template",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "template-article": {
+    "prefix": "template-article",
+    "body": [
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Notes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\\documentclass{article}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Used Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\\usepackage{xeCJK}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Fonts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\\setCJKmainfont{Source Han Serif SC}",
+      "\\setCJKsansfont{Source Han Sans HW SC}",
+      "\\setCJKmonofont{Source Han Mono SC}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Cover %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\title{$1}",
+      "\\author{AzarAI}",
+      "\\date{${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DAY}}",
+      "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Notes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
+      "\\begin{document}",
+      "\\maketitle",
+      "",
+      "$2",
+      "",
+      "\\end{document}"
+    ],
+    "description": "Template for latex note-taking for plain article template",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "alpha": {
+    "prefix": "@a",
+    "body": [
+      "\\alpha"
+    ],
+    "description": "alpha symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "beta": {
+    "prefix": "@b",
+    "body": [
+      "\\beta"
+    ],
+    "description": "beta symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "gamma": {
+    "prefix": "@g",
+    "body": [
+      "\\gamma"
+    ],
+    "description": "gamma symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Gamma": {
+    "prefix": "@G",
+    "body": [
+      "\\Gamma"
+    ],
+    "description": "Gamma symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "delta": {
+    "prefix": "@d",
+    "body": [
+      "\\delta{$1}"
+    ],
+    "description": "delta symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Delta": {
+    "prefix": "@D",
+    "body": [
+      "\\Delta{$1}"
+    ],
+    "description": "Delta symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "epsilon": {
+    "prefix": "@e",
+    "body": [
+      "\\epsilon"
+    ],
+    "description": "epsilon symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "zeta": {
+    "prefix": "@z",
+    "body": [
+      "\\zeta"
+    ],
+    "description": "zeta symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "eta": {
+    "prefix": "@et",
+    "body": [
+      "\\eta"
+    ],
+    "description": "eta symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "theta": {
+    "prefix": "@t",
+    "body": [
+      "\theta"
+    ],
+    "description": "theta symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Theta": {
+    "prefix": "@T",
+    "body": [
+      "\theta"
+    ],
+    "description": "Theta symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "kappa": {
+    "prefix": "@k",
+    "body": [
+      "\\kappa"
+    ],
+    "description": "kappa symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "lambda": {
+    "prefix": "@l",
+    "body": [
+      "\\lambda"
+    ],
+    "description": "lambda symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Lambda": {
+    "prefix": "@L",
+    "body": [
+      "\\Lambda"
+    ],
+    "description": "Lambda symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "mu": {
+    "prefix": "@m",
+    "body": [
+      "\\mu"
+    ],
+    "description": "mu symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "nu": {
+    "prefix": "@n",
+    "body": [
+      "\\nu"
+    ],
+    "description": "nu symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "xi": {
+    "prefix": "@x",
+    "body": [
+      "\\xi"
+    ],
+    "description": "xi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Xi": {
+    "prefix": "@X",
+    "body": [
+      "\\Xi"
+    ],
+    "description": "Xi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "pi": {
+    "prefix": "pi",
+    "body": [
+      "\\pi"
+    ],
+    "description": "pi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Pi": {
+    "prefix": "Pi",
+    "body": [
+      "\\Pi"
+    ],
+    "description": "Pi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "rho": {
+    "prefix": "@r",
+    "body": [
+      "\\rho"
+    ],
+    "description": "rho symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "sigma": {
+    "prefix": "@s",
+    "body": [
+      "\\sigma"
+    ],
+    "description": "sigma symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Sigma": {
+    "prefix": "@S",
+    "body": [
+      "\\Sigma"
+    ],
+    "description": "Sigma symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "tau": {
+    "prefix": "tau",
+    "body": [
+      "\tau"
+    ],
+    "description": "tau symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "upsilon": {
+    "prefix": "@u",
+    "body": [
+      "\\upsilon"
+    ],
+    "description": "upsilon symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Upsilon": {
+    "prefix": "@U",
+    "body": [
+      "\\Upsilon"
+    ],
+    "description": "Upsilon symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "phi": {
+    "prefix": "@ph",
+    "body": [
+      "\\phi"
+    ],
+    "description": "phi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Phi": {
+    "prefix": "@Ph",
+    "body": [
+      "\\Phi"
+    ],
+    "description": "Phi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "chi": {
+    "prefix": "@c",
+    "body": [
+      "\\chi"
+    ],
+    "description": "chi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Chi": {
+    "prefix": "@C",
+    "body": [
+      "\\Chi"
+    ],
+    "description": "Chi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "psi": {
+    "prefix": "@ps",
+    "body": [
+      "\\psi"
+    ],
+    "description": "psi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Psi": {
+    "prefix": "@Ps",
+    "body": [
+      "\\Psi"
+    ],
+    "description": "Psi symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "omega": {
+    "prefix": "@o",
+    "body": [
+      "\\omega"
+    ],
+    "description": "omega symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Omega": {
+    "prefix": "@O",
+    "body": [
+      "\\Omega"
+    ],
+    "description": "Omega symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "environment": {
+    "prefix": "m.ebb",
+    "body": [
+      "\\begin{$1}",
+      "\t$2",
+      "\\end{$1}"
+    ],
+    "description": "plain environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "definition": {
+    "prefix": "m.edf",
+    "body": [
+      "\\begin{definition}[$1]",
+      "\t$2",
+      "\\end{definition}"
+    ],
+    "description": "definition environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "example": {
+    "prefix": "m.eem",
+    "body": [
+      "\\begin{example}[$1]",
+      "\t$2",
+      "\\end{example}"
+    ],
+    "description": "example environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "lemma": {
+    "prefix": "m.elm",
+    "body": [
+      "\\begin{lemma}[$1]",
+      "\t$2",
+      "\\end{lemma}"
+    ],
+    "description": "lemma environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "corollary": {
+    "prefix": "m.ecl",
+    "body": [
+      "\\begin{corollary}[$1]",
+      "\t$2",
+      "\\end{corollary}"
+    ],
+    "description": "corollary environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "proposition": {
+    "prefix": "m.epp",
+    "body": [
+      "\\begin{proposition}[$1]",
+      "\t$2",
+      "\\end{proposition}"
+    ],
+    "description": "proposition environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "exercise": {
+    "prefix": "m.eex",
+    "body": [
+      "\\begin{exercise}[$1]",
+      "\t$2",
+      "\\end{exercise}"
+    ],
+    "description": "exercise environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "remark": {
+    "prefix": "m.erm",
+    "body": [
+      "\\begin{remark}[$1]",
+      "\t$2",
+      "\\end{remark}"
+    ],
+    "description": "remark environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "theorem": {
+    "prefix": "m.eth",
+    "body": [
+      "\\begin{theorem}[$1]",
+      "\t$2",
+      "\\end{theorem}"
+    ],
+    "description": "theorem environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "proof": {
+    "prefix": "m.epf",
+    "body": [
+      "\\begin{theorem}[$1]",
+      "\t$2",
+      "\\end{theorem}"
+    ],
+    "description": "theorem environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "description": {
+    "prefix": "m.edp",
+    "body": [
+      "\\begin{description}",
+      "\t$1",
+      "\\end{description}"
+    ],
+    "description": "description list",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "quote": {
+    "prefix": "m.eqt",
+    "body": [
+      "\\begin{quote}",
+      "\t$1",
+      "\\end{quote}"
+    ],
+    "description": "quotation",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "quotation": {
+    "prefix": "m.eqa",
+    "body": [
+      "\\begin{quotation}",
+      "\t$1",
+      "\\end{quotation}"
+    ],
+    "description": "long quotation",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "align": {
+    "prefix": "m.eal",
+    "body": [
+      "\\begin{align}",
+      "\t$1",
+      "\\end{align}"
+    ],
+    "description": "align environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "cases": {
+    "prefix": "m.eca",
+    "body": [
+      "\\begin{cases}",
+      "\t$1",
+      "\\end{cases}"
+    ],
+    "description": "cases environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "equation": {
+    "prefix": "m.eeq",
+    "body": [
+      "\\begin{equation}",
+      "\t$1",
+      "\\end{equation}"
+    ],
+    "description": "equation environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "array": {
+    "prefix": "m.ear",
+    "body": [
+      "\\begin{array}{c}",
+      "\t$1",
+      "\\end{array}"
+    ],
+    "description": "array environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "split": {
+    "prefix": "m.esp",
+    "body": [
+      "\\begin{split}",
+      "\t$1",
+      "\\end{split}"
+    ],
+    "description": "split environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "gather": {
+    "prefix": "m.ega",
+    "body": [
+      "\\begin{gather}",
+      "\t$1",
+      "\\end{gather}"
+    ],
+    "description": "gather environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "multline": {
+    "prefix": "m.eml",
+    "body": [
+      "\\begin{multline}",
+      "\t$1",
+      "\\end{multline}"
+    ],
+    "description": "multline environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "figure": {
+    "prefix": "m.efi",
+    "body": [
+      "\\begin{figure}",
+      "\t$1",
+      "\\end{figure}"
+    ],
+    "description": "figure environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "table": {
+    "prefix": "m.etb",
+    "body": [
+      "\\begin{table}",
+      "\t$1",
+      "\\end{table}"
+    ],
+    "description": "table environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "tabular": {
+    "prefix": "m.etr",
+    "body": [
+      "\\begin{tabular}{$1}",
+      "\t$2",
+      "\\end{tabular}"
+    ],
+    "description": "tabular environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "lstlisting": {
+    "prefix": "m.els",
+    "body": [
+      "\\begin{lstlisting}",
+      "\t$1",
+      "\\end{lstlisting}"
+    ],
+    "description": "code listing",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "verbatim": {
+    "prefix": "m.evb",
+    "body": [
+      "\\begin{verbatim}",
+      "\t$1",
+      "\\end{verbatim}"
+    ],
+    "description": "verbatim text",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "itemize": {
+    "prefix": "m.eit",
+    "body": [
+      "\\begin{itemize}",
+      "\t$1",
+      "\\end{itemize}"
+    ],
+    "description": "unordered list",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "enumerate": {
+    "prefix": "m.een",
+    "body": [
+      "\\begin{enumerate}",
+      "\t$1",
+      "\\end{enumerate}"
+    ],
+    "description": "ordered list",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "center": {
+    "prefix": "m.ect",
+    "body": [
+      "\\begin{center}",
+      "\t$1",
+      "\\end{center}"
+    ],
+    "description": "centered text",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "flushleft": {
+    "prefix": "m.efl",
+    "body": [
+      "\\begin{flushleft}",
+      "\t$1",
+      "\\end{flushleft}"
+    ],
+    "description": "left-aligned text",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "flushright": {
+    "prefix": "m.efr",
+    "body": [
+      "\\begin{flushright}",
+      "\t$1",
+      "\\end{flushright}"
+    ],
+    "description": "right-aligned text",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "pmatrix": {
+    "prefix": "m.emp",
+    "body": [
+      "\\begin{pmatrix}",
+      "\t$1",
+      "\\end{pmatrix}"
+    ],
+    "description": "pmatrix environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "bmatrix": {
+    "prefix": "m.emb",
+    "body": [
+      "\\begin{bmatrix}",
+      "\t$1",
+      "\\end{bmatrix}"
+    ],
+    "description": "bmatrix environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "vmatrix": {
+    "prefix": "m.emv",
+    "body": [
+      "\\begin{vmatrix}",
+      "\t$1",
+      "\\end{vmatrix}"
+    ],
+    "description": "vmatrix environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Vmatrix": {
+    "prefix": "m.emV",
+    "body": [
+      "\\begin{Vmatrix}",
+      "\t$1",
+      "\\end{Vmatrix}"
+    ],
+    "description": "Vmatrix environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "inline_math": {
+    "prefix": "mmk",
+    "body": [
+      "$ $1 $"
+    ],
+    "description": "inline math environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math": {
+    "prefix": "mdm",
+    "body": [
+      "$$\n\t$1\n$$"
+    ],
+    "description": "math environment",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "text_bold_face": {
+    "prefix": "mtbf",
+    "body": [
+      "\textbf"
+    ],
+    "description": "Boldface",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "text_italic": {
+    "prefix": "mtit",
+    "body": [
+      "\textit"
+    ],
+    "description": "Italic",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "text_slant": {
+    "prefix": "mtsl",
+    "body": [
+      "\textsl"
+    ],
+    "description": "Slanted (different from \textit{})",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "text_typewriter": {
+    "prefix": "mttt",
+    "body": [
+      "\texttt"
+    ],
+    "description": "Monospace (Typewriter font)",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "text_sasns-serif": {
+    "prefix": "mtsf",
+    "body": [
+      "\textsf"
+    ],
+    "description": "Sans-serif font",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "text_small_caps": {
+    "prefix": "mtsc",
+    "body": [
+      "\textsc"
+    ],
+    "description": "Small caps Small",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "text_medium": {
+    "prefix": "mtmd",
+    "body": [
+      "\textmd"
+    ],
+    "description": "Medium weight (normal)",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "text_roman": {
+    "prefix": "mtrm",
+    "body": [
+      "\textrm"
+    ],
+    "description": "Roman (serif, default) Default",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "text_normal": {
+    "prefix": "mtnormal",
+    "body": [
+      "\textnormal"
+    ],
+    "description": "Normal font (resets to default) Normal",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math_roman": {
+    "prefix": "mmrm",
+    "body": [
+      "\\mathrm"
+    ],
+    "description": "Upright Roman",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math_italic": {
+    "prefix": "mmit",
+    "body": [
+      "\\mathit"
+    ],
+    "description": "Italic",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math_boldface": {
+    "prefix": "mmbf",
+    "body": [
+      "\\mathbf"
+    ],
+    "description": "Boldface",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math_sans-serif": {
+    "prefix": "mmsf",
+    "body": [
+      "\\mathsf"
+    ],
+    "description": "Sans-serif",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math_typewriter": {
+    "prefix": "mmtt",
+    "body": [
+      "\\mathtt"
+    ],
+    "description": "Monospace",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math_blackboard": {
+    "prefix": "mmbb",
+    "body": [
+      "\\mathbb"
+    ],
+    "description": "Blackboard bold (requires \\usepackage{amssymb})",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math_calligraphic": {
+    "prefix": "mmcal",
+    "body": [
+      "\\mathcal"
+    ],
+    "description": "Calligraphic",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math_fraktur": {
+    "prefix": "mmfrak",
+    "body": [
+      "\\mathfrak"
+    ],
+    "description": "Fraktur (requires \\usepackage{amssymb} or \\usepackage{mathrsfs})",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "math_script": {
+    "prefix": "mmscr",
+    "body": [
+      "\\mathscr"
+    ],
+    "description": "Script (requires \\usepackage{mathrsfs})",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "plus_minus": {
+    "prefix": [
+      "mpm",
+      "m+-"
+    ],
+    "body": [
+      "\\pm"
+    ],
+    "description": "plus-minus symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "minus_plus": {
+    "prefix": [
+      "mmp",
+      "m-+"
+    ],
+    "body": [
+      "\\mp"
+    ],
+    "description": "minus_plus symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "underline": {
+    "prefix": "mul",
+    "body": [
+      "\\underline{$1}"
+    ],
+    "description": "underline symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "vector": {
+    "prefix": "mvc",
+    "body": [
+      "\\vec{$1}"
+    ],
+    "description": "vector symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "exp": {
+    "prefix": "mee",
+    "body": [
+      "e^{$1}"
+    ],
+    "description": "exp symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "ellipsis": {
+    "prefix": "md.",
+    "body": [
+      "\\dots"
+    ],
+    "description": "ellipsis symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "center ellipsis": {
+    "prefix": "mdc",
+    "body": [
+      "\\cdots"
+    ],
+    "description": "center ellipsis symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "vertical ellipsis": {
+    "prefix": "mdv",
+    "body": [
+      "\\vdots"
+    ],
+    "description": "vertical symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "slanted ellipsis": {
+    "prefix": "mds",
+    "body": [
+      "\\ddots"
+    ],
+    "description": "slanted ellipsis symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "ni": {
+    "prefix": "mni",
+    "body": [
+      "\\ni"
+    ],
+    "description": "ni-set symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "in": {
+    "prefix": "min",
+    "body": [
+      "\\in"
+    ],
+    "description": "in-set symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "not ni": {
+    "prefix": "m!ni",
+    "body": [
+      "\\not\\ni"
+    ],
+    "description": "not-ni-set symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "not in": {
+    "prefix": "m!in",
+    "body": [
+      "\\not\\in"
+    ],
+    "description": "not-in-set symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "and": {
+    "prefix": "mland",
+    "body": [
+      "\\wedge"
+    ],
+    "description": "logic and symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "or": {
+    "prefix": "mlor",
+    "body": [
+      "\\vee"
+    ],
+    "description": "logic or symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "not": {
+    "prefix": "mlnot",
+    "body": [
+      "\\neg"
+    ],
+    "description": "logic not symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "oplus": {
+    "prefix": "mo+",
+    "body": [
+      "\\oplus"
+    ],
+    "description": "oplus symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "otimes": {
+    "prefix": "mo*",
+    "body": [
+      "\\otimes"
+    ],
+    "description": "otimes symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "odot": {
+    "prefix": "mo.",
+    "body": [
+      "\\odot"
+    ],
+    "description": "odot symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "right arrow": {
+    "prefix": "m->",
+    "body": ["\\rightarrow"],
+    "description": "right arrow",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "left arrow": {
+    "prefix": "m-<",
+    "body": ["\\leftarrow"],
+    "description": "left arrow",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Right arrow": {
+    "prefix": "m=>",
+    "body": ["\\Rightarrow"],
+    "description": "Right arrow",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Left arrow": {
+    "prefix": "m=<",
+    "body": ["\\Leftarrow"],
+    "description": "Left arrow",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "times": {
+    "prefix": "mxx",
+    "body": [
+      "\\times"
+    ],
+    "description": "times symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "cdot": {
+    "prefix": "mx.",
+    "body": [
+      "\\cdot"
+    ],
+    "description": "cdot symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "always equal": {
+    "prefix": "m==",
+    "body": [
+      "\\equiv"
+    ],
+    "description": "always symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "not equal": {
+    "prefix": "m!=",
+    "body": [
+      "\\neq"
+    ],
+    "description": "not-equal symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "less equal": {
+    "prefix": "m<=",
+    "body": [
+      "\\leq"
+    ],
+    "description": "less-equal symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "greater equal": {
+    "prefix": "m>=",
+    "body": [
+      "\\geq"
+    ],
+    "description": "greater-equal symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "approxmiate": {
+    "prefix": "m~=",
+    "body": [
+      "\\approx"
+    ],
+    "description": "approxmiate symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "not approxmiate": {
+    "prefix": "m!~",
+    "body": [
+      "\\not\\approx"
+    ],
+    "description": "not-approxmiate symbol",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "integer set": {
+    "prefix": "mZZ",
+    "body": [
+      "\\mathbb{R}"
+    ],
+    "description": "integer number set",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "rational number set": {
+    "prefix": "mQQ",
+    "body": [
+      "\\mathbb{Q}"
+    ],
+    "description": "rational number set",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "complex number set": {
+    "prefix": "mCC",
+    "body": [
+      "\\mathbb{C}"
+    ],
+    "description": "complex number set",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "natural number set": {
+    "prefix": "mNN",
+    "body": [
+      "\\mathbb{N}"
+    ],
+    "description": "natural number set",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Section I": {
+    "prefix": "SEC1",
+    "body": [
+      "\\section{$1}"
+    ],
+    "description": "section I",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Section II": {
+    "prefix": "SEC2",
+    "body": [
+      "\\subsection{$1}"
+    ],
+    "description": "section II",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Section III": {
+    "prefix": "SEC3",
+    "body": [
+      "\\subsubsection{$1}"
+    ],
+    "description": "section III",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "superscript": {
+    "prefix": "m^",
+    "body": [
+      "^{$1}"
+    ],
+    "description": "superscript",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "subscript": {
+    "prefix": "m_",
+    "body": [
+      "_{$1}"
+    ],
+    "description": "subscript",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "square_root": {
+    "prefix": "msq",
+    "body": ["\\sqrt{$1}"],
+    "description": "square root",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+    "square_root_n": {
+    "prefix": "msnq",
+    "body": ["\\sqrt[$1]{$2}"],
+    "description": "square root n",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  }
+
+}

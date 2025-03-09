@@ -1,0 +1,23 @@
+{
+  "snippet-template": {
+    "prefix": "sniptem",
+    "body": [
+      "\"${1:snippet_name}\": {",
+      "\t\"prefix\": \"${2:snippet_trigger}\",",
+      "\t\"body\": [$5],",
+      "\t\"description\": \"${3:sninppet_description}\",",
+      "\t\"luasnip\": {",
+      "\t\t\"priority\": 2000,",
+      "\t\t\"autotrigger\": ${4:true},",
+      "\t\t\"wordTrig\": true",
+      "\t}",
+      "}"
+    ],
+    "description": "Template for json format snippet",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  }
+}

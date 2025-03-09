@@ -1,0 +1,98 @@
+{
+  "author": {
+    "prefix": "author",
+    "body": [
+      "AzarAI"
+    ],
+    "description": "The author's name",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": false,
+      "wordTrig": true
+    }
+  },
+  "github": {
+    "prefix": "github",
+    "body": [
+      "git@github.com:AzarAI-TOP"
+    ],
+    "description": "The author's github address",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": false,
+      "wordTrig": true
+    }
+  },
+  "email_google": {
+    "prefix": "emailg",
+    "body": [
+      "azaraitop@gmail.com"
+    ],
+    "description": "The author's Google email",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": false,
+      "wordTrig": true
+    }
+  },
+  "email_ustc": {
+    "prefix": "emailu",
+    "body": [
+      "azarai@mail.ustc.edu.cn"
+    ],
+    "description": "The author's USTC email",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": false,
+      "wordTrig": true
+    }
+  },
+  "time:": {
+    "prefix": "time:",
+    "body": [
+      "${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}"
+    ],
+    "description": "Time (HH:MM:SS)",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": false,
+      "wordTrig": true
+    }
+  },
+  "time-": {
+    "prefix": "time-",
+    "body": [
+      "${CURRENT_HOUR}-${CURRENT_MINUTE}-${CURRENT_SECOND}"
+    ],
+    "description": "Time (HH-MM-SS)",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": false,
+      "wordTrig": true
+    }
+  },
+  "date/": {
+    "prefix": "date:",
+    "body": [
+      "${CURRENT_YEAR}/${CURRENT_MONTH}/${CURRENT_DATE}"
+    ],
+    "description": "Time (HH:MM:SS)",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": false,
+      "wordTrig": true
+    }
+  },
+  "date-": {
+    "prefix": "date-",
+    "body": [
+      "${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}"
+    ],
+    "description": "Time (HH-MM-SS)",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": false,
+      "wordTrig": true
+    }
+  }
+}
