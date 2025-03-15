@@ -9,3 +9,8 @@ vim.api.nvim_create_autocmd("FileType", {
   pattern = "plaintex",
   command = "setlocal filetype=tex",
 })
+
+-- Auto switch Fcitx5 to English IME
+vim.api.nvim_create_autocmd("InsertLeave", {
+  callback = function() vim.fn.system("fcitx5-remote -c") end,
+})

@@ -31,4 +31,43 @@ function M.toggle_config()
   end
 end
 
+function M.convert_chinese_punctuation_to_english()
+  -- Define some mappings from Chinese punctuation to English puncutation
+  local punctuation_map = {
+    ["，"] = ",",
+    ["。"] = ".",
+    ["；"] = ";",
+    ["："] = ":",
+    ["“"] = '"',
+    ["”"] = '"',
+    ["‘"] = "'",
+    ["’"] = "'",
+    ["（"] = "(",
+    ["）"] = ")",
+    ["【"] = "[",
+    ["】"] = "]",
+    ["《"] = "<",
+    ["》"] = ">",
+    ["、"] = ",",
+    ["…"] = "...",
+    ["—"] = "-",
+    ["——"] = "--",
+  }
+
+  -- Get the line number of the current buffer
+  local bufnr = vim.api.nvim_get_current_buf()
+  local lines = vim.api.nvim_buf_get_lines(bufnr, 0, -1, false)
+
+  -- Iterate each line to replace punctuations
+  for i, line in ipairs(lines) do
+    for zh_punct, en_punct in pairs(punctuation_map) do
+      line = string.gsub(line, zh_punct, en_punct)
+    end
+    lines[i] = line
+  end
+
+  -- Store
+  vim.api.nvim_buf_set_lines(bufnr, 0, -1, false, lines)
+end
+
 return M

@@ -12,10 +12,10 @@
       "\\setCJKsansfont{Source Han Sans HW SC}",
       "\\setCJKmonofont{Source Han Mono SC}",
       "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Cover %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
-      "\title{$1}",
+      "\\title{$1}",
       "\\author{AzarAI}",
       "\\emailAdd{azarai@mail.ustc.edu.cn}",
-      "\\date{${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DAY}}",
+      "\\date{${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}}",
       "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Notes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
       "\\begin{document}",
       "\\maketitle",
@@ -43,9 +43,9 @@
       "\\setCJKsansfont{Source Han Sans HW SC}",
       "\\setCJKmonofont{Source Han Mono SC}",
       "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Cover %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
-      "\title{$1}",
+      "\\title{$1}",
       "\\author{AzarAI}",
-      "\\date{${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DAY}}",
+      "\\date{${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}}",
       "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Notes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%",
       "\\begin{document}",
       "\\maketitle",
@@ -63,9 +63,7 @@
   },
   "alpha": {
     "prefix": "@a",
-    "body": [
-      "\\alpha"
-    ],
+    "body": ["\\alpha"],
     "description": "alpha symbol",
     "luasnip": {
       "priority": 2000,
@@ -75,9 +73,7 @@
   },
   "beta": {
     "prefix": "@b",
-    "body": [
-      "\\beta"
-    ],
+    "body": ["\\beta"],
     "description": "beta symbol",
     "luasnip": {
       "priority": 2000,
@@ -87,9 +83,7 @@
   },
   "gamma": {
     "prefix": "@g",
-    "body": [
-      "\\gamma"
-    ],
+    "body": ["\\gamma"],
     "description": "gamma symbol",
     "luasnip": {
       "priority": 2000,
@@ -99,9 +93,7 @@
   },
   "Gamma": {
     "prefix": "@G",
-    "body": [
-      "\\Gamma"
-    ],
+    "body": ["\\Gamma"],
     "description": "Gamma symbol",
     "luasnip": {
       "priority": 2000,
@@ -111,9 +103,7 @@
   },
   "delta": {
     "prefix": "@d",
-    "body": [
-      "\\delta{$1}"
-    ],
+    "body": ["\\delta{$1}"],
     "description": "delta symbol",
     "luasnip": {
       "priority": 2000,
@@ -123,9 +113,7 @@
   },
   "Delta": {
     "prefix": "@D",
-    "body": [
-      "\\Delta{$1}"
-    ],
+    "body": ["\\Delta{$1}"],
     "description": "Delta symbol",
     "luasnip": {
       "priority": 2000,
@@ -135,9 +123,7 @@
   },
   "epsilon": {
     "prefix": "@e",
-    "body": [
-      "\\epsilon"
-    ],
+    "body": ["\\epsilon"],
     "description": "epsilon symbol",
     "luasnip": {
       "priority": 2000,
@@ -147,9 +133,7 @@
   },
   "zeta": {
     "prefix": "@z",
-    "body": [
-      "\\zeta"
-    ],
+    "body": ["\\zeta"],
     "description": "zeta symbol",
     "luasnip": {
       "priority": 2000,
@@ -159,9 +143,7 @@
   },
   "eta": {
     "prefix": "@et",
-    "body": [
-      "\\eta"
-    ],
+    "body": ["\\eta"],
     "description": "eta symbol",
     "luasnip": {
       "priority": 2000,
@@ -171,9 +153,7 @@
   },
   "theta": {
     "prefix": "@t",
-    "body": [
-      "\theta"
-    ],
+    "body": ["\theta"],
     "description": "theta symbol",
     "luasnip": {
       "priority": 2000,
@@ -183,9 +163,7 @@
   },
   "Theta": {
     "prefix": "@T",
-    "body": [
-      "\theta"
-    ],
+    "body": ["\theta"],
     "description": "Theta symbol",
     "luasnip": {
       "priority": 2000,
@@ -195,9 +173,7 @@
   },
   "kappa": {
     "prefix": "@k",
-    "body": [
-      "\\kappa"
-    ],
+    "body": ["\\kappa"],
     "description": "kappa symbol",
     "luasnip": {
       "priority": 2000,
@@ -207,9 +183,7 @@
   },
   "lambda": {
     "prefix": "@l",
-    "body": [
-      "\\lambda"
-    ],
+    "body": ["\\lambda"],
     "description": "lambda symbol",
     "luasnip": {
       "priority": 2000,
@@ -219,9 +193,7 @@
   },
   "Lambda": {
     "prefix": "@L",
-    "body": [
-      "\\Lambda"
-    ],
+    "body": ["\\Lambda"],
     "description": "Lambda symbol",
     "luasnip": {
       "priority": 2000,
@@ -231,9 +203,7 @@
   },
   "mu": {
     "prefix": "@m",
-    "body": [
-      "\\mu"
-    ],
+    "body": ["\\mu"],
     "description": "mu symbol",
     "luasnip": {
       "priority": 2000,
@@ -243,9 +213,7 @@
   },
   "nu": {
     "prefix": "@n",
-    "body": [
-      "\\nu"
-    ],
+    "body": ["\\nu"],
     "description": "nu symbol",
     "luasnip": {
       "priority": 2000,
@@ -255,9 +223,7 @@
   },
   "xi": {
     "prefix": "@x",
-    "body": [
-      "\\xi"
-    ],
+    "body": ["\\xi"],
     "description": "xi symbol",
     "luasnip": {
       "priority": 2000,
@@ -267,9 +233,7 @@
   },
   "Xi": {
     "prefix": "@X",
-    "body": [
-      "\\Xi"
-    ],
+    "body": ["\\Xi"],
     "description": "Xi symbol",
     "luasnip": {
       "priority": 2000,
@@ -279,9 +243,7 @@
   },
   "pi": {
     "prefix": "pi",
-    "body": [
-      "\\pi"
-    ],
+    "body": ["\\pi"],
     "description": "pi symbol",
     "luasnip": {
       "priority": 2000,
@@ -291,9 +253,7 @@
   },
   "Pi": {
     "prefix": "Pi",
-    "body": [
-      "\\Pi"
-    ],
+    "body": ["\\Pi"],
     "description": "Pi symbol",
     "luasnip": {
       "priority": 2000,
@@ -303,9 +263,7 @@
   },
   "rho": {
     "prefix": "@r",
-    "body": [
-      "\\rho"
-    ],
+    "body": ["\\rho"],
     "description": "rho symbol",
     "luasnip": {
       "priority": 2000,
@@ -315,9 +273,7 @@
   },
   "sigma": {
     "prefix": "@s",
-    "body": [
-      "\\sigma"
-    ],
+    "body": ["\\sigma"],
     "description": "sigma symbol",
     "luasnip": {
       "priority": 2000,
@@ -327,9 +283,7 @@
   },
   "Sigma": {
     "prefix": "@S",
-    "body": [
-      "\\Sigma"
-    ],
+    "body": ["\\Sigma"],
     "description": "Sigma symbol",
     "luasnip": {
       "priority": 2000,
@@ -339,9 +293,7 @@
   },
   "tau": {
     "prefix": "tau",
-    "body": [
-      "\tau"
-    ],
+    "body": ["\tau"],
     "description": "tau symbol",
     "luasnip": {
       "priority": 2000,
@@ -351,9 +303,7 @@
   },
   "upsilon": {
     "prefix": "@u",
-    "body": [
-      "\\upsilon"
-    ],
+    "body": ["\\upsilon"],
     "description": "upsilon symbol",
     "luasnip": {
       "priority": 2000,
@@ -363,9 +313,7 @@
   },
   "Upsilon": {
     "prefix": "@U",
-    "body": [
-      "\\Upsilon"
-    ],
+    "body": ["\\Upsilon"],
     "description": "Upsilon symbol",
     "luasnip": {
       "priority": 2000,
@@ -375,9 +323,7 @@
   },
   "phi": {
     "prefix": "@ph",
-    "body": [
-      "\\phi"
-    ],
+    "body": ["\\phi"],
     "description": "phi symbol",
     "luasnip": {
       "priority": 2000,
@@ -387,9 +333,7 @@
   },
   "Phi": {
     "prefix": "@Ph",
-    "body": [
-      "\\Phi"
-    ],
+    "body": ["\\Phi"],
     "description": "Phi symbol",
     "luasnip": {
       "priority": 2000,
@@ -399,9 +343,7 @@
   },
   "chi": {
     "prefix": "@c",
-    "body": [
-      "\\chi"
-    ],
+    "body": ["\\chi"],
     "description": "chi symbol",
     "luasnip": {
       "priority": 2000,
@@ -411,9 +353,7 @@
   },
   "Chi": {
     "prefix": "@C",
-    "body": [
-      "\\Chi"
-    ],
+    "body": ["\\Chi"],
     "description": "Chi symbol",
     "luasnip": {
       "priority": 2000,
@@ -423,9 +363,7 @@
   },
   "psi": {
     "prefix": "@ps",
-    "body": [
-      "\\psi"
-    ],
+    "body": ["\\psi"],
     "description": "psi symbol",
     "luasnip": {
       "priority": 2000,
@@ -435,9 +373,7 @@
   },
   "Psi": {
     "prefix": "@Ps",
-    "body": [
-      "\\Psi"
-    ],
+    "body": ["\\Psi"],
     "description": "Psi symbol",
     "luasnip": {
       "priority": 2000,
@@ -447,9 +383,7 @@
   },
   "omega": {
     "prefix": "@o",
-    "body": [
-      "\\omega"
-    ],
+    "body": ["\\omega"],
     "description": "omega symbol",
     "luasnip": {
       "priority": 2000,
@@ -459,9 +393,7 @@
   },
   "Omega": {
     "prefix": "@O",
-    "body": [
-      "\\Omega"
-    ],
+    "body": ["\\Omega"],
     "description": "Omega symbol",
     "luasnip": {
       "priority": 2000,
@@ -471,11 +403,7 @@
   },
   "environment": {
     "prefix": "m.ebb",
-    "body": [
-      "\\begin{$1}",
-      "\t$2",
-      "\\end{$1}"
-    ],
+    "body": ["\\begin{$1}", "\t$2", "\\end{$1}"],
     "description": "plain environment",
     "luasnip": {
       "priority": 2000,
@@ -485,11 +413,7 @@
   },
   "definition": {
     "prefix": "m.edf",
-    "body": [
-      "\\begin{definition}[$1]",
-      "\t$2",
-      "\\end{definition}"
-    ],
+    "body": ["\\begin{definition}[$1]", "\t$2", "\\end{definition}"],
     "description": "definition environment",
     "luasnip": {
       "priority": 2000,
@@ -499,11 +423,7 @@
   },
   "example": {
     "prefix": "m.eem",
-    "body": [
-      "\\begin{example}[$1]",
-      "\t$2",
-      "\\end{example}"
-    ],
+    "body": ["\\begin{example}[$1]", "\t$2", "\\end{example}"],
     "description": "example environment",
     "luasnip": {
       "priority": 2000,
@@ -513,11 +433,7 @@
   },
   "lemma": {
     "prefix": "m.elm",
-    "body": [
-      "\\begin{lemma}[$1]",
-      "\t$2",
-      "\\end{lemma}"
-    ],
+    "body": ["\\begin{lemma}[$1]", "\t$2", "\\end{lemma}"],
     "description": "lemma environment",
     "luasnip": {
       "priority": 2000,
@@ -527,11 +443,7 @@
   },
   "corollary": {
     "prefix": "m.ecl",
-    "body": [
-      "\\begin{corollary}[$1]",
-      "\t$2",
-      "\\end{corollary}"
-    ],
+    "body": ["\\begin{corollary}[$1]", "\t$2", "\\end{corollary}"],
     "description": "corollary environment",
     "luasnip": {
       "priority": 2000,
@@ -541,11 +453,7 @@
   },
   "proposition": {
     "prefix": "m.epp",
-    "body": [
-      "\\begin{proposition}[$1]",
-      "\t$2",
-      "\\end{proposition}"
-    ],
+    "body": ["\\begin{proposition}[$1]", "\t$2", "\\end{proposition}"],
     "description": "proposition environment",
     "luasnip": {
       "priority": 2000,
@@ -555,11 +463,7 @@
   },
   "exercise": {
     "prefix": "m.eex",
-    "body": [
-      "\\begin{exercise}[$1]",
-      "\t$2",
-      "\\end{exercise}"
-    ],
+    "body": ["\\begin{exercise}[$1]", "\t$2", "\\end{exercise}"],
     "description": "exercise environment",
     "luasnip": {
       "priority": 2000,
@@ -569,11 +473,7 @@
   },
   "remark": {
     "prefix": "m.erm",
-    "body": [
-      "\\begin{remark}[$1]",
-      "\t$2",
-      "\\end{remark}"
-    ],
+    "body": ["\\begin{remark}[$1]", "\t$2", "\\end{remark}"],
     "description": "remark environment",
     "luasnip": {
       "priority": 2000,
@@ -583,11 +483,7 @@
   },
   "theorem": {
     "prefix": "m.eth",
-    "body": [
-      "\\begin{theorem}[$1]",
-      "\t$2",
-      "\\end{theorem}"
-    ],
+    "body": ["\\begin{theorem}[$1]", "\t$2", "\\end{theorem}"],
     "description": "theorem environment",
     "luasnip": {
       "priority": 2000,
@@ -597,11 +493,7 @@
   },
   "proof": {
     "prefix": "m.epf",
-    "body": [
-      "\\begin{theorem}[$1]",
-      "\t$2",
-      "\\end{theorem}"
-    ],
+    "body": ["\\begin{proof}[$1]", "\t$2", "\\end{proof}"],
     "description": "theorem environment",
     "luasnip": {
       "priority": 2000,
@@ -611,11 +503,7 @@
   },
   "description": {
     "prefix": "m.edp",
-    "body": [
-      "\\begin{description}",
-      "\t$1",
-      "\\end{description}"
-    ],
+    "body": ["\\begin{description}", "\t$1", "\\end{description}"],
     "description": "description list",
     "luasnip": {
       "priority": 2000,
@@ -625,11 +513,7 @@
   },
   "quote": {
     "prefix": "m.eqt",
-    "body": [
-      "\\begin{quote}",
-      "\t$1",
-      "\\end{quote}"
-    ],
+    "body": ["\\begin{quote}", "\t$1", "\\end{quote}"],
     "description": "quotation",
     "luasnip": {
       "priority": 2000,
@@ -639,11 +523,7 @@
   },
   "quotation": {
     "prefix": "m.eqa",
-    "body": [
-      "\\begin{quotation}",
-      "\t$1",
-      "\\end{quotation}"
-    ],
+    "body": ["\\begin{quotation}", "\t$1", "\\end{quotation}"],
     "description": "long quotation",
     "luasnip": {
       "priority": 2000,
@@ -653,12 +533,8 @@
   },
   "align": {
     "prefix": "m.eal",
-    "body": [
-      "\\begin{align}",
-      "\t$1",
-      "\\end{align}"
-    ],
-    "description": "align environment",
+    "body": ["\\begin{aligned}", "\t$1", "\\end{aligned}"],
+    "description": "aligned environment",
     "luasnip": {
       "priority": 2000,
       "autotrigger": true,
@@ -667,11 +543,7 @@
   },
   "cases": {
     "prefix": "m.eca",
-    "body": [
-      "\\begin{cases}",
-      "\t$1",
-      "\\end{cases}"
-    ],
+    "body": ["\\begin{cases}", "\t$1", "\\end{cases}"],
     "description": "cases environment",
     "luasnip": {
       "priority": 2000,
@@ -681,11 +553,7 @@
   },
   "equation": {
     "prefix": "m.eeq",
-    "body": [
-      "\\begin{equation}",
-      "\t$1",
-      "\\end{equation}"
-    ],
+    "body": ["\\begin{equation}", "\t$1", "\\end{equation}"],
     "description": "equation environment",
     "luasnip": {
       "priority": 2000,
@@ -695,11 +563,7 @@
   },
   "array": {
     "prefix": "m.ear",
-    "body": [
-      "\\begin{array}{c}",
-      "\t$1",
-      "\\end{array}"
-    ],
+    "body": ["\\begin{array}{c}", "\t$1", "\\end{array}"],
     "description": "array environment",
     "luasnip": {
       "priority": 2000,
@@ -709,11 +573,7 @@
   },
   "split": {
     "prefix": "m.esp",
-    "body": [
-      "\\begin{split}",
-      "\t$1",
-      "\\end{split}"
-    ],
+    "body": ["\\begin{split}", "\t$1", "\\end{split}"],
     "description": "split environment",
     "luasnip": {
       "priority": 2000,
@@ -723,11 +583,7 @@
   },
   "gather": {
     "prefix": "m.ega",
-    "body": [
-      "\\begin{gather}",
-      "\t$1",
-      "\\end{gather}"
-    ],
+    "body": ["\\begin{gather}", "\t$1", "\\end{gather}"],
     "description": "gather environment",
     "luasnip": {
       "priority": 2000,
@@ -737,11 +593,7 @@
   },
   "multline": {
     "prefix": "m.eml",
-    "body": [
-      "\\begin{multline}",
-      "\t$1",
-      "\\end{multline}"
-    ],
+    "body": ["\\begin{multline}", "\t$1", "\\end{multline}"],
     "description": "multline environment",
     "luasnip": {
       "priority": 2000,
@@ -751,11 +603,7 @@
   },
   "figure": {
     "prefix": "m.efi",
-    "body": [
-      "\\begin{figure}",
-      "\t$1",
-      "\\end{figure}"
-    ],
+    "body": ["\\begin{figure}", "\t$1", "\\end{figure}"],
     "description": "figure environment",
     "luasnip": {
       "priority": 2000,
@@ -765,11 +613,7 @@
   },
   "table": {
     "prefix": "m.etb",
-    "body": [
-      "\\begin{table}",
-      "\t$1",
-      "\\end{table}"
-    ],
+    "body": ["\\begin{table}", "\t$1", "\\end{table}"],
     "description": "table environment",
     "luasnip": {
       "priority": 2000,
@@ -779,11 +623,7 @@
   },
   "tabular": {
     "prefix": "m.etr",
-    "body": [
-      "\\begin{tabular}{$1}",
-      "\t$2",
-      "\\end{tabular}"
-    ],
+    "body": ["\\begin{tabular}{$1}", "\t$2", "\\end{tabular}"],
     "description": "tabular environment",
     "luasnip": {
       "priority": 2000,
@@ -793,11 +633,7 @@
   },
   "lstlisting": {
     "prefix": "m.els",
-    "body": [
-      "\\begin{lstlisting}",
-      "\t$1",
-      "\\end{lstlisting}"
-    ],
+    "body": ["\\begin{lstlisting}", "\t$1", "\\end{lstlisting}"],
     "description": "code listing",
     "luasnip": {
       "priority": 2000,
@@ -807,11 +643,7 @@
   },
   "verbatim": {
     "prefix": "m.evb",
-    "body": [
-      "\\begin{verbatim}",
-      "\t$1",
-      "\\end{verbatim}"
-    ],
+    "body": ["\\begin{verbatim}", "\t$1", "\\end{verbatim}"],
     "description": "verbatim text",
     "luasnip": {
       "priority": 2000,
@@ -821,11 +653,7 @@
   },
   "itemize": {
     "prefix": "m.eit",
-    "body": [
-      "\\begin{itemize}",
-      "\t$1",
-      "\\end{itemize}"
-    ],
+    "body": ["\\begin{itemize}", "\t$1", "\\end{itemize}"],
     "description": "unordered list",
     "luasnip": {
       "priority": 2000,
@@ -835,11 +663,7 @@
   },
   "enumerate": {
     "prefix": "m.een",
-    "body": [
-      "\\begin{enumerate}",
-      "\t$1",
-      "\\end{enumerate}"
-    ],
+    "body": ["\\begin{enumerate}", "\t$1", "\\end{enumerate}"],
     "description": "ordered list",
     "luasnip": {
       "priority": 2000,
@@ -849,11 +673,7 @@
   },
   "center": {
     "prefix": "m.ect",
-    "body": [
-      "\\begin{center}",
-      "\t$1",
-      "\\end{center}"
-    ],
+    "body": ["\\begin{center}", "\t$1", "\\end{center}"],
     "description": "centered text",
     "luasnip": {
       "priority": 2000,
@@ -863,11 +683,7 @@
   },
   "flushleft": {
     "prefix": "m.efl",
-    "body": [
-      "\\begin{flushleft}",
-      "\t$1",
-      "\\end{flushleft}"
-    ],
+    "body": ["\\begin{flushleft}", "\t$1", "\\end{flushleft}"],
     "description": "left-aligned text",
     "luasnip": {
       "priority": 2000,
@@ -877,11 +693,7 @@
   },
   "flushright": {
     "prefix": "m.efr",
-    "body": [
-      "\\begin{flushright}",
-      "\t$1",
-      "\\end{flushright}"
-    ],
+    "body": ["\\begin{flushright}", "\t$1", "\\end{flushright}"],
     "description": "right-aligned text",
     "luasnip": {
       "priority": 2000,
@@ -891,11 +703,7 @@
   },
   "pmatrix": {
     "prefix": "m.emp",
-    "body": [
-      "\\begin{pmatrix}",
-      "\t$1",
-      "\\end{pmatrix}"
-    ],
+    "body": ["\\begin{pmatrix}", "\t$1", "\\end{pmatrix}"],
     "description": "pmatrix environment",
     "luasnip": {
       "priority": 2000,
@@ -905,11 +713,7 @@
   },
   "bmatrix": {
     "prefix": "m.emb",
-    "body": [
-      "\\begin{bmatrix}",
-      "\t$1",
-      "\\end{bmatrix}"
-    ],
+    "body": ["\\begin{bmatrix}", "\t$1", "\\end{bmatrix}"],
     "description": "bmatrix environment",
     "luasnip": {
       "priority": 2000,
@@ -919,11 +723,7 @@
   },
   "vmatrix": {
     "prefix": "m.emv",
-    "body": [
-      "\\begin{vmatrix}",
-      "\t$1",
-      "\\end{vmatrix}"
-    ],
+    "body": ["\\begin{vmatrix}", "\t$1", "\\end{vmatrix}"],
     "description": "vmatrix environment",
     "luasnip": {
       "priority": 2000,
@@ -933,11 +733,7 @@
   },
   "Vmatrix": {
     "prefix": "m.emV",
-    "body": [
-      "\\begin{Vmatrix}",
-      "\t$1",
-      "\\end{Vmatrix}"
-    ],
+    "body": ["\\begin{Vmatrix}", "\t$1", "\\end{Vmatrix}"],
     "description": "Vmatrix environment",
     "luasnip": {
       "priority": 2000,
@@ -947,9 +743,7 @@
   },
   "inline_math": {
     "prefix": "mmk",
-    "body": [
-      "$ $1 $"
-    ],
+    "body": ["\\( $1 \\)"],
     "description": "inline math environment",
     "luasnip": {
       "priority": 2000,
@@ -959,9 +753,7 @@
   },
   "math": {
     "prefix": "mdm",
-    "body": [
-      "$$\n\t$1\n$$"
-    ],
+    "body": ["\\[\n\t$1\n\\]"],
     "description": "math environment",
     "luasnip": {
       "priority": 2000,
@@ -971,9 +763,7 @@
   },
   "text_bold_face": {
     "prefix": "mtbf",
-    "body": [
-      "\textbf"
-    ],
+    "body": ["\\textbf"],
     "description": "Boldface",
     "luasnip": {
       "priority": 2000,
@@ -983,9 +773,7 @@
   },
   "text_italic": {
     "prefix": "mtit",
-    "body": [
-      "\textit"
-    ],
+    "body": ["\\textit"],
     "description": "Italic",
     "luasnip": {
       "priority": 2000,
@@ -995,9 +783,7 @@
   },
   "text_slant": {
     "prefix": "mtsl",
-    "body": [
-      "\textsl"
-    ],
+    "body": ["\\textsl"],
     "description": "Slanted (different from \textit{})",
     "luasnip": {
       "priority": 2000,
@@ -1007,9 +793,7 @@
   },
   "text_typewriter": {
     "prefix": "mttt",
-    "body": [
-      "\texttt"
-    ],
+    "body": ["\\texttt"],
     "description": "Monospace (Typewriter font)",
     "luasnip": {
       "priority": 2000,
@@ -1019,9 +803,7 @@
   },
   "text_sasns-serif": {
     "prefix": "mtsf",
-    "body": [
-      "\textsf"
-    ],
+    "body": ["\\textsf"],
     "description": "Sans-serif font",
     "luasnip": {
       "priority": 2000,
@@ -1031,9 +813,7 @@
   },
   "text_small_caps": {
     "prefix": "mtsc",
-    "body": [
-      "\textsc"
-    ],
+    "body": ["\\textsc"],
     "description": "Small caps Small",
     "luasnip": {
       "priority": 2000,
@@ -1043,9 +823,7 @@
   },
   "text_medium": {
     "prefix": "mtmd",
-    "body": [
-      "\textmd"
-    ],
+    "body": ["\\textmd"],
     "description": "Medium weight (normal)",
     "luasnip": {
       "priority": 2000,
@@ -1055,9 +833,7 @@
   },
   "text_roman": {
     "prefix": "mtrm",
-    "body": [
-      "\textrm"
-    ],
+    "body": ["\\textrm"],
     "description": "Roman (serif, default) Default",
     "luasnip": {
       "priority": 2000,
@@ -1067,9 +843,7 @@
   },
   "text_normal": {
     "prefix": "mtnormal",
-    "body": [
-      "\textnormal"
-    ],
+    "body": ["\\textnormal"],
     "description": "Normal font (resets to default) Normal",
     "luasnip": {
       "priority": 2000,
@@ -1079,9 +853,7 @@
   },
   "math_roman": {
     "prefix": "mmrm",
-    "body": [
-      "\\mathrm"
-    ],
+    "body": ["\\mathrm"],
     "description": "Upright Roman",
     "luasnip": {
       "priority": 2000,
@@ -1091,9 +863,7 @@
   },
   "math_italic": {
     "prefix": "mmit",
-    "body": [
-      "\\mathit"
-    ],
+    "body": ["\\mathit"],
     "description": "Italic",
     "luasnip": {
       "priority": 2000,
@@ -1103,9 +873,7 @@
   },
   "math_boldface": {
     "prefix": "mmbf",
-    "body": [
-      "\\mathbf"
-    ],
+    "body": ["\\mathbf"],
     "description": "Boldface",
     "luasnip": {
       "priority": 2000,
@@ -1115,9 +883,7 @@
   },
   "math_sans-serif": {
     "prefix": "mmsf",
-    "body": [
-      "\\mathsf"
-    ],
+    "body": ["\\mathsf"],
     "description": "Sans-serif",
     "luasnip": {
       "priority": 2000,
@@ -1127,9 +893,7 @@
   },
   "math_typewriter": {
     "prefix": "mmtt",
-    "body": [
-      "\\mathtt"
-    ],
+    "body": ["\\mathtt"],
     "description": "Monospace",
     "luasnip": {
       "priority": 2000,
@@ -1139,9 +903,7 @@
   },
   "math_blackboard": {
     "prefix": "mmbb",
-    "body": [
-      "\\mathbb"
-    ],
+    "body": ["\\mathbb"],
     "description": "Blackboard bold (requires \\usepackage{amssymb})",
     "luasnip": {
       "priority": 2000,
@@ -1151,9 +913,7 @@
   },
   "math_calligraphic": {
     "prefix": "mmcal",
-    "body": [
-      "\\mathcal"
-    ],
+    "body": ["\\mathcal"],
     "description": "Calligraphic",
     "luasnip": {
       "priority": 2000,
@@ -1163,9 +923,7 @@
   },
   "math_fraktur": {
     "prefix": "mmfrak",
-    "body": [
-      "\\mathfrak"
-    ],
+    "body": ["\\mathfrak"],
     "description": "Fraktur (requires \\usepackage{amssymb} or \\usepackage{mathrsfs})",
     "luasnip": {
       "priority": 2000,
@@ -1175,9 +933,7 @@
   },
   "math_script": {
     "prefix": "mmscr",
-    "body": [
-      "\\mathscr"
-    ],
+    "body": ["\\mathscr"],
     "description": "Script (requires \\usepackage{mathrsfs})",
     "luasnip": {
       "priority": 2000,
@@ -1186,13 +942,8 @@
     }
   },
   "plus_minus": {
-    "prefix": [
-      "mpm",
-      "m+-"
-    ],
-    "body": [
-      "\\pm"
-    ],
+    "prefix": ["mpm", "m+-"],
+    "body": ["\\pm"],
     "description": "plus-minus symbol",
     "luasnip": {
       "priority": 2000,
@@ -1201,13 +952,8 @@
     }
   },
   "minus_plus": {
-    "prefix": [
-      "mmp",
-      "m-+"
-    ],
-    "body": [
-      "\\mp"
-    ],
+    "prefix": ["mmp", "m-+"],
+    "body": ["\\mp"],
     "description": "minus_plus symbol",
     "luasnip": {
       "priority": 2000,
@@ -1217,9 +963,7 @@
   },
   "underline": {
     "prefix": "mul",
-    "body": [
-      "\\underline{$1}"
-    ],
+    "body": ["\\underline{$1}"],
     "description": "underline symbol",
     "luasnip": {
       "priority": 2000,
@@ -1229,9 +973,7 @@
   },
   "vector": {
     "prefix": "mvc",
-    "body": [
-      "\\vec{$1}"
-    ],
+    "body": ["\\vec{$1}"],
     "description": "vector symbol",
     "luasnip": {
       "priority": 2000,
@@ -1241,9 +983,7 @@
   },
   "exp": {
     "prefix": "mee",
-    "body": [
-      "e^{$1}"
-    ],
+    "body": ["e^{$1}"],
     "description": "exp symbol",
     "luasnip": {
       "priority": 2000,
@@ -1253,9 +993,7 @@
   },
   "ellipsis": {
     "prefix": "md.",
-    "body": [
-      "\\dots"
-    ],
+    "body": ["\\dots"],
     "description": "ellipsis symbol",
     "luasnip": {
       "priority": 2000,
@@ -1265,9 +1003,7 @@
   },
   "center ellipsis": {
     "prefix": "mdc",
-    "body": [
-      "\\cdots"
-    ],
+    "body": ["\\cdots"],
     "description": "center ellipsis symbol",
     "luasnip": {
       "priority": 2000,
@@ -1277,9 +1013,7 @@
   },
   "vertical ellipsis": {
     "prefix": "mdv",
-    "body": [
-      "\\vdots"
-    ],
+    "body": ["\\vdots"],
     "description": "vertical symbol",
     "luasnip": {
       "priority": 2000,
@@ -1289,9 +1023,7 @@
   },
   "slanted ellipsis": {
     "prefix": "mds",
-    "body": [
-      "\\ddots"
-    ],
+    "body": ["\\ddots"],
     "description": "slanted ellipsis symbol",
     "luasnip": {
       "priority": 2000,
@@ -1301,9 +1033,7 @@
   },
   "ni": {
     "prefix": "mni",
-    "body": [
-      "\\ni"
-    ],
+    "body": ["\\ni"],
     "description": "ni-set symbol",
     "luasnip": {
       "priority": 2000,
@@ -1313,9 +1043,7 @@
   },
   "in": {
     "prefix": "min",
-    "body": [
-      "\\in"
-    ],
+    "body": ["\\in"],
     "description": "in-set symbol",
     "luasnip": {
       "priority": 2000,
@@ -1325,9 +1053,7 @@
   },
   "not ni": {
     "prefix": "m!ni",
-    "body": [
-      "\\not\\ni"
-    ],
+    "body": ["\\not\\ni"],
     "description": "not-ni-set symbol",
     "luasnip": {
       "priority": 2000,
@@ -1337,9 +1063,7 @@
   },
   "not in": {
     "prefix": "m!in",
-    "body": [
-      "\\not\\in"
-    ],
+    "body": ["\\not\\in"],
     "description": "not-in-set symbol",
     "luasnip": {
       "priority": 2000,
@@ -1349,9 +1073,7 @@
   },
   "and": {
     "prefix": "mland",
-    "body": [
-      "\\wedge"
-    ],
+    "body": ["\\wedge"],
     "description": "logic and symbol",
     "luasnip": {
       "priority": 2000,
@@ -1361,9 +1083,7 @@
   },
   "or": {
     "prefix": "mlor",
-    "body": [
-      "\\vee"
-    ],
+    "body": ["\\vee"],
     "description": "logic or symbol",
     "luasnip": {
       "priority": 2000,
@@ -1373,9 +1093,7 @@
   },
   "not": {
     "prefix": "mlnot",
-    "body": [
-      "\\neg"
-    ],
+    "body": ["\\neg"],
     "description": "logic not symbol",
     "luasnip": {
       "priority": 2000,
@@ -1385,9 +1103,7 @@
   },
   "oplus": {
     "prefix": "mo+",
-    "body": [
-      "\\oplus"
-    ],
+    "body": ["\\oplus"],
     "description": "oplus symbol",
     "luasnip": {
       "priority": 2000,
@@ -1397,9 +1113,7 @@
   },
   "otimes": {
     "prefix": "mo*",
-    "body": [
-      "\\otimes"
-    ],
+    "body": ["\\otimes"],
     "description": "otimes symbol",
     "luasnip": {
       "priority": 2000,
@@ -1409,9 +1123,7 @@
   },
   "odot": {
     "prefix": "mo.",
-    "body": [
-      "\\odot"
-    ],
+    "body": ["\\odot"],
     "description": "odot symbol",
     "luasnip": {
       "priority": 2000,
@@ -1461,9 +1173,7 @@
   },
   "times": {
     "prefix": "mxx",
-    "body": [
-      "\\times"
-    ],
+    "body": ["\\times"],
     "description": "times symbol",
     "luasnip": {
       "priority": 2000,
@@ -1473,9 +1183,7 @@
   },
   "cdot": {
     "prefix": "mx.",
-    "body": [
-      "\\cdot"
-    ],
+    "body": ["\\cdot"],
     "description": "cdot symbol",
     "luasnip": {
       "priority": 2000,
@@ -1485,9 +1193,7 @@
   },
   "always equal": {
     "prefix": "m==",
-    "body": [
-      "\\equiv"
-    ],
+    "body": ["\\equiv"],
     "description": "always symbol",
     "luasnip": {
       "priority": 2000,
@@ -1497,9 +1203,7 @@
   },
   "not equal": {
     "prefix": "m!=",
-    "body": [
-      "\\neq"
-    ],
+    "body": ["\\neq"],
     "description": "not-equal symbol",
     "luasnip": {
       "priority": 2000,
@@ -1509,9 +1213,7 @@
   },
   "less equal": {
     "prefix": "m<=",
-    "body": [
-      "\\leq"
-    ],
+    "body": ["\\leq"],
     "description": "less-equal symbol",
     "luasnip": {
       "priority": 2000,
@@ -1521,9 +1223,7 @@
   },
   "greater equal": {
     "prefix": "m>=",
-    "body": [
-      "\\geq"
-    ],
+    "body": ["\\geq"],
     "description": "greater-equal symbol",
     "luasnip": {
       "priority": 2000,
@@ -1533,9 +1233,7 @@
   },
   "approxmiate": {
     "prefix": "m~=",
-    "body": [
-      "\\approx"
-    ],
+    "body": ["\\approx"],
     "description": "approxmiate symbol",
     "luasnip": {
       "priority": 2000,
@@ -1545,9 +1243,7 @@
   },
   "not approxmiate": {
     "prefix": "m!~",
-    "body": [
-      "\\not\\approx"
-    ],
+    "body": ["\\not\\approx"],
     "description": "not-approxmiate symbol",
     "luasnip": {
       "priority": 2000,
@@ -1557,9 +1253,7 @@
   },
   "integer set": {
     "prefix": "mZZ",
-    "body": [
-      "\\mathbb{R}"
-    ],
+    "body": ["\\mathbb{R}"],
     "description": "integer number set",
     "luasnip": {
       "priority": 2000,
@@ -1569,9 +1263,7 @@
   },
   "rational number set": {
     "prefix": "mQQ",
-    "body": [
-      "\\mathbb{Q}"
-    ],
+    "body": ["\\mathbb{Q}"],
     "description": "rational number set",
     "luasnip": {
       "priority": 2000,
@@ -1581,9 +1273,7 @@
   },
   "complex number set": {
     "prefix": "mCC",
-    "body": [
-      "\\mathbb{C}"
-    ],
+    "body": ["\\mathbb{C}"],
     "description": "complex number set",
     "luasnip": {
       "priority": 2000,
@@ -1593,9 +1283,7 @@
   },
   "natural number set": {
     "prefix": "mNN",
-    "body": [
-      "\\mathbb{N}"
-    ],
+    "body": ["\\mathbb{N}"],
     "description": "natural number set",
     "luasnip": {
       "priority": 2000,
@@ -1605,9 +1293,7 @@
   },
   "Section I": {
     "prefix": "SEC1",
-    "body": [
-      "\\section{$1}"
-    ],
+    "body": ["\\section{$1}"],
     "description": "section I",
     "luasnip": {
       "priority": 2000,
@@ -1617,9 +1303,7 @@
   },
   "Section II": {
     "prefix": "SEC2",
-    "body": [
-      "\\subsection{$1}"
-    ],
+    "body": ["\\subsection{$1}"],
     "description": "section II",
     "luasnip": {
       "priority": 2000,
@@ -1629,9 +1313,7 @@
   },
   "Section III": {
     "prefix": "SEC3",
-    "body": [
-      "\\subsubsection{$1}"
-    ],
+    "body": ["\\subsubsection{$1}"],
     "description": "section III",
     "luasnip": {
       "priority": 2000,
@@ -1641,26 +1323,22 @@
   },
   "superscript": {
     "prefix": "m^",
-    "body": [
-      "^{$1}"
-    ],
+    "body": ["^{$1}"],
     "description": "superscript",
     "luasnip": {
       "priority": 2000,
       "autotrigger": true,
-      "wordTrig": true
+      "wordTrig": false
     }
   },
   "subscript": {
     "prefix": "m_",
-    "body": [
-      "_{$1}"
-    ],
+    "body": ["_{$1}"],
     "description": "subscript",
     "luasnip": {
       "priority": 2000,
       "autotrigger": true,
-      "wordTrig": true
+      "wordTrig": false
     }
   },
   "square_root": {
@@ -1673,7 +1351,7 @@
       "wordTrig": true
     }
   },
-    "square_root_n": {
+  "square_root_n": {
     "prefix": "msnq",
     "body": ["\\sqrt[$1]{$2}"],
     "description": "square root n",
@@ -1682,6 +1360,45 @@
       "autotrigger": true,
       "wordTrig": true
     }
+  },
+  "fraction": {
+    "prefix": "m//",
+    "body": ["\\frac{$1}{$2}"],
+    "description": "fraction",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Composition": {
+    "prefix": "mpcom",
+    "body": ["C_{$1}^{$2}"],
+    "description": "Composition",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "Arrangement": {
+    "prefix": "mparr",
+    "body": ["A_{$1}^{$2}"],
+    "description": "Arrangement",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
+  },
+  "item": {
+    "prefix": "mit",
+    "body": ["\\item"],
+    "description": "item",
+    "luasnip": {
+      "priority": 2000,
+      "autotrigger": true,
+      "wordTrig": true
+    }
   }
-
 }

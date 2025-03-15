@@ -13,6 +13,7 @@ return {
         "gopls",
         "jsonls",
         "basedpyright",
+        "texlab",
       },
     },
   },

@@ -50,6 +50,17 @@ maps.n["f"] = { function() require("hop").hint_char1({ current_line_only = true 
 -- ...
 
 -- Custom
+maps.n["<F1>"] = { '<Cmd>execute v:count . "ToggleTerm"<CR>', desc = "Toggle terminal" }
+maps.t["<F1>"] = { "<Cmd>ToggleTerm<CR>", desc = "Toggle terminal" }
+maps.i["<F1>"] = { "<Esc><Cmd>ToggleTerm<CR>", desc = "Toggle terminal" }
+maps.n["<F2>"] = {
+  function() require("utils").convert_chinese_punctuation_to_english() end,
+  desc = "Mapping Chinese punctuation to English ones",
+}
+maps.i["<F2>"] = {
+  function() require("utils").convert_chinese_punctuation_to_english() end,
+  desc = "Mapping Chinese punctuation to English ones",
+}
 maps.n["<F12>"] = { function() require("utils").toggle_config() end, desc = "Neovim configuration" }
 
 return maps

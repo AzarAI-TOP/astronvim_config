@@ -26,13 +26,13 @@ return {
     options = {
       opt = { -- Vim.opt.<key>
         number = true, -- Sets vim.opt.number
-        relativenumber = true, -- Sets vim.opt.relativenumber
+        relativenumber = false, -- Sets vim.opt.relativenumber
         spell = false, -- Sets vim.opt.spell
         signcolumn = "yes", -- Sets vim.opt.signcolumn to yes
         wrap = false, -- Sets vim.opt.wrap
         smartcase = true, -- Sets vim.opt.smartcase
         autoread = true,
-        swapfile = false,
+        swapfile = true,
       },
       g = { -- Vim.g.<key>
         -- Configure global vim variables (vim.g)
