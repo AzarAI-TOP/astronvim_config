@@ -50,17 +50,20 @@ maps.n["f"] = { function() require("hop").hint_char1({ current_line_only = true 
 -- ...
 
 -- Custom
-maps.n["<F1>"] = { '<Cmd>execute v:count . "ToggleTerm"<CR>', desc = "Toggle terminal" }
-maps.t["<F1>"] = { "<Cmd>ToggleTerm<CR>", desc = "Toggle terminal" }
-maps.i["<F1>"] = { "<Esc><Cmd>ToggleTerm<CR>", desc = "Toggle terminal" }
-maps.n["<F2>"] = {
+maps.n["<F1>"] = { "<Cmd>ToggleTerm size=10 direction=horizontal<CR>", desc = "Toggle horizontally" }
+maps.t["<F1>"] = { "<Cmd>ToggleTerm size=10 direction=horizontal<CR>", desc = "ToggleTerm horizontally" }
+maps.i["<F1>"] = { "<Esc><Cmd>ToggleTerm size=10 direction=horizontal<CR>", desc = "Toggle horizontally" }
+
+maps.n["<C-F1>"] = { "<Cmd>ToggleTerm size=75 direction=vertical<CR>", desc = "Toggle vertically" }
+maps.t["<C-F1>"] = { "<Cmd>ToggleTerm size=75 direction=vertical<CR>", desc = "ToggleTerm vertically" }
+maps.i["<C-F1>"] = { "<Esc><Cmd>ToggleTerm size=75  direction=vertical<CR>", desc = "Toggle vertically" }
+
+maps.n["<F11>"] = {
   function() require("utils").convert_chinese_punctuation_to_english() end,
   desc = "Mapping Chinese punctuation to English ones",
 }
-maps.i["<F2>"] = {
-  function() require("utils").convert_chinese_punctuation_to_english() end,
-  desc = "Mapping Chinese punctuation to English ones",
-}
+maps.i["<F2>"] = maps.n["<F11>"]
+
 maps.n["<F12>"] = { function() require("utils").toggle_config() end, desc = "Neovim configuration" }
 
 return maps
