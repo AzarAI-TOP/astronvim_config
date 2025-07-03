@@ -14,3 +14,9 @@ vim.api.nvim_create_autocmd("FileType", {
 vim.api.nvim_create_autocmd("InsertLeave", {
   callback = function() vim.fn.system("fcitx5-remote -c") end,
 })
+
+-- Auto read VerilogHeader as Verilog file
+vim.api.nvim_create_autocmd({ "BufRead", "BufNewFile" }, {
+  pattern = "*.vh",
+  callback = function() vim.bo.filetype = "verilog" end,
+})
